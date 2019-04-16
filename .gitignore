@@ -1,4 +1,5 @@
 /node_modules
+node_modules/
 package-lock.json
 package.json
 bulma
@@ -15,3 +16,4 @@ rtl.css
 readme.text
 build
 gulpfile.js
+node_modules/
