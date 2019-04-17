@@ -3,7 +3,7 @@
  * Author: EZ Media
  * Author URI: EZ Media
  * Description: mMlvihill Irish Dance
- * Version: 1.0.1
+ * Version: 1.0.2
  * License: GNU General Public License v2 or later
  * License URI: LICENSE
  * Text Domain: mulvihillirishdance
@@ -180,7 +180,6 @@ body {
   display: none; }
   @media screen and (max-width: 1023px) {
     .body-opacity.body-opacity {
-      background: rgba(0, 0, 0, 0.9);
       position: fixed;
       top: 0;
       right: 0;
