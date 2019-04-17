@@ -64,7 +64,7 @@
 
                 <div class="container">
                     <div class="navbar-brand">
-                        <a class="navbar-item" href="#">
+                        <a class="navbar-item" href="<?php echo esc_url( home_url( '/' ) ); ?>">
                             <img class="logo-main" src="<?php header_image(); ?>"
                                 height="<?php echo get_custom_header()->height; ?>"
                                 width="<?php echo get_custom_header()->width; ?>" alt="" />
