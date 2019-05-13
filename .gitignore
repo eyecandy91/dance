@@ -1,19 +1,19 @@
 /node_modules
 node_modules/
-package-lock.json
-package.json
+# package-lock.json
+# package.json
 bulma
 .vscode
-.travis.yml
+# .travis.yml
 js-dev/**
 js-dev
-gulpfile.js
-readme.txt
-README.md
+# gulpfile.js
+# readme.txt
+# README.md
 sass
 init
-rtl.css
-readme.text
+# rtl.css
+# readme.text
 build
-gulpfile.js
+# gulpfile.js
 node_modules/

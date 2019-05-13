@@ -2,7 +2,7 @@
 /**
  * The header for our theme
  *
- * This is the template that displays all of the <head> section and everything up until <div id="content">
+ * This is the template that displays all of the <head> section 
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
@@ -29,10 +29,10 @@
     <meta name="theme-color" content="#ffffff">
 
 
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Nunito:400,700" as="style"
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Oswald:500|Playfair+Display:400,400i" as="style"
         onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,700"></noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:500|Playfair+Display:400,400i"></noscript>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
         integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="preload" href="<?php echo get_stylesheet_uri()?>" as="style"
@@ -43,10 +43,6 @@
         onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/css/aos.css"></noscript>
-
-    <?php
-    //get theme options
-	$options = get_option( 'theme_settings' ); ?>
 
 </head>
 
