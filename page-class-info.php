@@ -102,7 +102,8 @@ get_header();
                                         // foreach (array_combine($types, $times) as $type => $time) {
                                         ?>
                                         <p class="title is-7 text-primary is-uppercase is-marginless has-text-primary">
-                                            <?php echo $type ?> <?php echo $time ?></p>
+                                            <?php echo implode(', ', $types); ?>
+                                            <?php echo implode(', ', $times); ?>
                                         <?php
                                         
                                         ?>
