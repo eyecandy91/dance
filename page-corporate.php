@@ -28,7 +28,7 @@ get_header();
                         <div data-aos="fade-right" class="column has-text-white">
                             <div class="column-is-centered content ">
                                 <?php if( get_field('corporate_title') ): ?>
-                                    <h3 class="title is-2 is-size-3-mobile has-text-white is-uppercase has-text-centered">
+                                    <h3 data-aos="fade-down" class="title is-2 is-size-3-mobile has-text-white is-uppercase has-text-centered">
                                         <?php the_field('corporate_title'); ?>
                                     </h3>
                                 <?php endif; ?>
@@ -56,7 +56,7 @@ get_header();
                         <div class="columns is-multiline is-tablet has-text-white has-text-left-tablet">
 
                             <div class="column is-full has-text-centered is-paddingless">
-                                <h4 class="title is-4 is-uppercase has-text-primary is-marginless">
+                                <h4 data-aos="fade-down" class="title is-4 is-uppercase has-text-primary is-marginless">
                                 Testimonials
                                 </h4>
                             </div>

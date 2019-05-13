@@ -28,7 +28,7 @@ get_header();
                         <div data-aos="fade-right" class="column has-text-white">
                             <div class="column-is-centered content ">
                                 <?php if( get_field('press_title') ): ?>
-                                    <h1 class="title is-2 is-size-3-mobile has-text-primary is-uppercase has-text-centered">
+                                    <h1 data-aos="fade-down" class="title is-2 is-size-3-mobile has-text-primary is-uppercase has-text-centered">
                                         <?php the_field('press_title'); ?>
                                     </h1>
                                 <?php endif; ?>

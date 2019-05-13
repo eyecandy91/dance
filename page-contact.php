@@ -26,7 +26,7 @@ get_header();
                     <div class="column is-full">
 
                         <?php if( get_field('contact_title') ): ?>
-                            <h1 class="title is-2 is-size-3-mobile is-uppercase has-text-white has-text-centered">
+                            <h1 data-aos="fade-down" class="title is-2 is-size-3-mobile is-uppercase has-text-white has-text-centered">
                                 <?php the_field('contact_title'); ?>
                             </h1>
                         <?php endif; ?>

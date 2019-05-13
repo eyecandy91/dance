@@ -37,13 +37,13 @@ $txt2 = get_sub_field('text_2');
                     <div class="column small is-full has-text-centered">
 
                         <?php if(isset($img)): ?>
-                            <div class="has-text-centered face">
+                            <div data-aos="fade-down" class="has-text-centered face">
                                 <img src="<?php echo $img ?>" alt="something here" width="185" height="185">
                             </div>
                         <?php endif; ?> 
 
                         <?php if(isset($name)): ?>
-                            <h3 class="title is-2 is-size-3-mobile is-uppercase has-text-white">
+                            <h3 data-aos="fade-top" class="title is-2 is-size-3-mobile is-uppercase has-text-white">
                                 <?php echo $name ?>
                             </h3>
                         <?php endif; ?> 

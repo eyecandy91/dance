@@ -49,7 +49,7 @@ $extra_rules = get_sub_field('extra')
                     <div class="column small is-full has-text-centered">
 
                         <?php if(isset($title)): ?>
-                            <h3 class="title is-2 is-size-3-mobile is-uppercase has-text-white">
+                            <h3 data-aos="fade-down" class="title is-2 is-size-3-mobile is-uppercase has-text-white">
                                 <?php echo $title ?>
                             </h3>
                         <?php endif; ?> 

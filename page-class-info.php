@@ -20,7 +20,7 @@ get_header();
 <section class="hero is-dark section" <?php if (get_field('class_bg')) : ?> style="background-image: url(<?php the_field('class_bg'); ?>)" <?php endif; ?>>
     <div class="hero-body">
         <div class="container small content is-not-mobile">
-            <div class="class-info">
+            <div data-aos="fade-down" class="class-info">
 
                 <?php if (get_field('class_title')) : ?>
                     <h3 class="title is-2 is-size-3-mobile is-uppercase has-text-white has-text-centered">
