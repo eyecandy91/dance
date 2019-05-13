@@ -99,13 +99,16 @@ get_header();
                                         $types = get_field('class_type');
                                         $times = get_field('class_time');
                                         // foreach ($values as $value) {
-                                        // foreach (array_combine($types, $times) as $type => $time) {
-                                        ?>
-                                        <p class="title is-7 text-primary is-uppercase is-marginless has-text-primary">
-                                            <?php echo implode(', ', $types); ?>
-                                            <?php echo implode(', ', $times); ?>
-                                        <?php
-                                        
+                                        foreach (array_combine($types, $times) as $type => $time) {?>
+                                            <p class="title is-7 text-primary is-uppercase is-marginless has-text-primary">
+                                            <?php
+                                            echo $type; 
+                                            echo " ";
+                                            echo $time; ?>
+                                            <br>
+                                            </p>
+                                            <?php
+                                        }
                                         ?>
                                     </div>
                                     <?php if (get_field('additional')) : ?>
